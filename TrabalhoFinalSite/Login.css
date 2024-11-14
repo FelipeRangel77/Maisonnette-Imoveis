@@ -126,6 +126,10 @@ body,html{
     transform: scale(1.1);
     transition: 0.5s;
 }
+.botao-linha{
+    color: white;
+    text-decoration: none;
+}
 .vindo{
     color: white;
     font-size: 40pt;
