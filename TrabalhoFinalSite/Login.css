@@ -17,22 +17,25 @@ body,html{
 }  
 .login{
     color: white;
-    font-size: 60pt;
+    font-size: 40pt;
     text-align: right;
-    margin-right: 20%;
-    margin-top: 6%;
     font-family: sans-serif;
     text-shadow: 
         5px 5px 0 black,
         5px 5px 0 black,
         5px 5px 0 black,
         5px 5px 0 black;
+    position: absolute;
+    right: 20%;
+    bottom: 65%;
 }
-.container-email{
+.container1{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    width: 176vh;
+    position: absolute;
+    left: 59%;
+    bottom: 55%;
 }
 .email{
     width: 450px; 
@@ -48,12 +51,15 @@ body,html{
     color: black;
     opacity: 0.8;
 }
-.container-senha{
+.container2{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     width: 176vh;
     margin-top: 30px;
+    position: absolute;
+    top: 45%;
+    left: 10.5%;
 }
 .senha{
     width: 450px; 
@@ -69,12 +75,14 @@ body,html{
     color: black;
     opacity: 0.8;
 }
-.container-checkbox{
+.container3{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     width: 154.5vh;
     margin-top: 10px;
+    position: absolute;
+    top: 58%;
 }
 .relemb input{
     display: none;
@@ -89,12 +97,15 @@ body,html{
     font-family: sans-serif;
     margin-bottom: 1px;
 }
-.container-botao{
+.container5{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     width: 163vh;
     height: 8vb;
+    position: absolute;
+    right: 17%;
+    top: 70%;
 }
 .botao-entrar{
     text-decoration: none;
@@ -117,10 +128,10 @@ body,html{
 }
 .vindo{
     color: white;
-    font-size: 75pt;
+    font-size: 40pt;
     position: absolute;
-    left: 2%;
-    bottom: 60%;
+    left: 5%;
+    bottom: 64%;
     font-family: sans-serif;
     text-shadow: 
         5px 5px 0 black,
@@ -135,28 +146,28 @@ body,html{
         3px 3px 0 black,
         3px 3px 0 black,
         3px 3px 0 black;
-    font-size: 22pt;
+    font-size: 14pt;
     position: absolute;
-    left: 4%;
-    bottom: 30%;
+    left: 5%;
+    bottom: 50%;
     font-family: sans-serif;
 }
 .face{
     width: 50px;
     position: absolute;
-    bottom: 15%;
+    bottom: 40%;
     left: 13%;
 }
 .insta{
     width: 50px;
     position: absolute;
-    bottom: 15%;
+    bottom: 40%;
     left: 25%;
 }
 .youtube{
     width: 50px;
     position: absolute;
-    bottom: 17%;
+    bottom: 41%;
     left: 36%;
 }
 .esq{
@@ -168,48 +179,8 @@ body,html{
     align-items: flex-end;
     margin-right:400px;
     margin-top: 15px;
-}
-@media (max-width: 480px) {
-    .vindo2{
-        display: none;
-    }
-    .insta{
-        display: none;
-    }
-    .face{
-        display: none;
-    }
-    .vindo{
-        display: none;
-    }
-    .youtube{
-        display: none;
-    }
-    .login{
-        position: relative;
-        right: 13%;
-    }
-    .senha{
-        position: relative;
-        right: 71.5%;
-    }
-    .email{
-        position: relative;
-        right: 71.5%;
-    }
-    .container-checkbox{
-        position: absolute;
-        right: 48%;
-    }
-    .botao{
-        position:absolute;
-        right: 35%;
-        bottom: -15%;
-    }
-    .esq{
-        position: absolute;
-        left: 19%;
-        bottom: -23%;
-        width: 200px;
-    }
+    position: absolute;
+    top: 78%;
+    left: 67%;
+    width: 200px;
 }
